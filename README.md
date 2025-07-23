@@ -1,4 +1,4 @@
-# 📚 StudyQuest - App de Estudos Gamificado
+# 📚 PSQ - Pedro Study Quest - App de Estudos Gamificado
 
 Um aplicativo web moderno para organizar seus estudos universitários com elementos de gamificação, sistema Kanban e agenda integrada.
 
@@ -148,4 +148,19 @@ Currently, two official plugins are available:
 
 ## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Pedro Study Quest - um app pensado para auxiliar o estudante com seus horarios e agenda com elementos de gamificação.
+
+## 🔧 Tecnologias Utilizadas
+
+- **Frontend**: React 18 + Vite
+- **Mobile**: Capacitor (para APK Android)
+- **Banco de Dados**: SQLite (localStorage)
+- **UI/UX**: CSS customizado + Lucide React (ícones)
+- **Build**: Vite para desenvolvimento e produção
+
+## 🚀 Como Executar
+
+1. Clone o repositório
+2. Instale as dependências: `npm install`
+3. Execute em desenvolvimento: `npm run dev`
+4. Para APK Android: `npm run build` → `npx cap sync android`
