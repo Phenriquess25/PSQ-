@@ -34,11 +34,11 @@ Um aplicativo web moderno para organizar seus estudos universitários com elemen
 - Node.js 16+ 
 - npm ou yarn
 
-### Instalação
+### Instalação Web
 ```bash
 # Clonar repositório
-git clone <seu-repo>
-cd aulas
+git clone https://github.com/Phenriquess25/PSQ-.git
+cd PSQ-
 
 # Instalar dependências
 npm install
@@ -46,6 +46,37 @@ npm install
 # Executar em desenvolvimento
 npm run dev
 ```
+
+### 📱 Android Studio & APK
+
+#### Preparação Rápida (Recomendado)
+```bash
+# Execute o script automatizado
+preparar-android.bat
+```
+
+#### Preparação Manual
+```bash
+# 1. Build do projeto
+npm run build
+
+# 2. Sincronizar com Android
+npx cap sync android
+
+# 3. Abrir no Android Studio
+npx cap open android
+```
+
+#### Gerar APK
+1. **Via Script**: Execute `gerar-apk-completo.bat`
+2. **Via Android Studio**: 
+   - Build → Generate Signed Bundle/APK
+   - Escolha APK → Create keystore → Release
+3. **Via Terminal**: `cd android && gradlew assembleDebug`
+
+📍 **APK gerado em**: `android/app/build/outputs/apk/`
+
+**📋 Guia completo**: [GUIA-ANDROID-STUDIO.md](GUIA-ANDROID-STUDIO.md)
 
 ### Build para Produção
 ```bash
