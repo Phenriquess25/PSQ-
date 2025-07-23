@@ -1,0 +1,30 @@
+<!-- PSQ Icon - Large SVG -->
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A855F7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#grad1)" rx="50"/>
+  
+  <!-- Border -->
+  <rect x="50" y="50" width="412" height="412" fill="none" stroke="white" stroke-width="8" rx="25"/>
+  
+  <!-- PSQ Text -->
+  <text x="256" y="290" font-family="Arial, sans-serif" font-size="120" font-weight="bold" fill="white" text-anchor="middle">PSQ</text>
+  
+  <!-- Book decoration -->
+  <rect x="150" y="100" width="212" height="12" fill="white" rx="6"/>
+  <rect x="150" y="120" width="212" height="12" fill="white" rx="6"/>
+  <rect x="150" y="380" width="212" height="12" fill="white" rx="6"/>
+  <rect x="150" y="400" width="212" height="12" fill="white" rx="6"/>
+  
+  <!-- Study elements -->
+  <circle cx="180" cy="200" r="8" fill="white"/>
+  <circle cx="220" cy="200" r="8" fill="white"/>
+  <circle cx="260" cy="200" r="8" fill="white"/>
+</svg>
