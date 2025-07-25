@@ -29,7 +29,7 @@ Use serviços online para converter:
 Para APK profissional (já configurado):
 
 1. **Baixe Android Studio**: https://developer.android.com/studio
-2. **Abra projeto**: `C:\Users\ResTIC16\Ufal\projeto\aulas\android`
+2. **Abra projeto**: `C:\Users\***\******\android`
 3. **Build APK**: Build → Generate Signed Bundle/APK
 
 ## 🎯 **Recomendação: PWA (Opção 1)**
